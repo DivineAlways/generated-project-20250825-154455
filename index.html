@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Hub: Flower Shop Delivery App</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin: 0; padding: 40px; background-color: #f8f9fa; color: #343a40; }
+        .container { max-width: 960px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.5rem; color: #212529; }
+        p.subtitle { font-size: 1.2rem; color: #6c757d; }
+        .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .nav-card { background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; text-align: center; text-decoration: none; color: inherit; transition: transform 0.2s, box-shadow 0.2s; }
+        .nav-card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .nav-card h2 { margin-top: 0; color: #007bff; }
+        .nav-card p { color: #495057; }
+        footer { text-align: center; margin-top: 60px; padding-top: 20px; border-top: 1px solid #dee2e6; font-size: 0.9rem; color: #6c757d; }
+        footer a { color: #007bff; text-decoration: none; margin: 0 10px; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flower Shop Delivery App</h1>
+            <p class="subtitle">A complete project package including documentation, wireframes, and a live prototype.</p>
+        </header>
+
+        <main>
+            <div class="nav-grid">
+                <a href="docs/overview.md" class="nav-card">
+                    <h2>Documentation</h2>
+                    <p>Project overview, requirements, and user flows.</p>
+                </a>
+                <a href="wireframes/index.html" class="nav-card">
+                    <h2>Wireframes</h2>
+                    <p>Low-fidelity layouts for key application screens.</p>
+                </a>
+                <a href="prototype/index.html" class="nav-card">
+                    <h2>Interactive Prototype</h2>
+                    <p>A clickable, data-driven prototype of the final application.</p>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <a href="docs/overview.md">View Documentation</a>
+            <span>&bull;</span>
+            <a href="wireframes/index.html">View Wireframe</a>
+        </footer>
+    </div>
+</body>
+</html>
