@@ -1,0 +1,50 @@
+[
+    {
+        "id": "p1",
+        "name": "Classic Red Roses",
+        "price": 79.99,
+        "description": "A timeless bouquet of a dozen long-stemmed red roses. The ultimate romantic gesture, perfect for anniversaries, Valentine's Day, or just because.",
+        "imageUrl": "https://images.unsplash.com/photo-1596859811575-1a81d454a4f2?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
+        "category": "Roses"
+    },
+    {
+        "id": "p2",
+        "name": "Sunny Day Lilies",
+        "price": 65.50,
+        "description": "Brighten any room with this cheerful arrangement of vibrant yellow and white lilies. A wonderful gift to celebrate a friendship or send well wishes.",
+        "imageUrl": "https://images.unsplash.com/photo-1566982260686-3536b2f1e6f6?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
+        "category": "Lilies"
+    },
+    {
+        "id": "p3",
+        "name": "Pastel Dream Bouquet",
+        "price": 85.00,
+        "description": "A soft and elegant mix of pastel-colored tulips, hydrangeas, and seasonal greens. Ideal for birthdays, Mother's Day, or as a gentle token of sympathy.",
+        "imageUrl": "https://images.unsplash.com/photo-1589923188902-c49122397142?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
+        "category": "Mixed"
+    },
+    {
+        "id": "p4",
+        "name": "Vibrant Tulip Mix",
+        "price": 55.99,
+        "description": "A burst of spring color! This bouquet features a lively assortment of fresh tulips in various shades. Perfect for celebrating a new beginning.",
+        "imageUrl": "https://images.unsplash.com/photo-1520763185233-1574a0050a26?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
+        "category": "Tulips"
+    },
+    {
+        "id": "p5",
+        "name": "Wildflower Garden",
+        "price": 72.00,
+        "description": "A rustic and charming arrangement that captures the beauty of a meadow in bloom. Features a mix of daisies, lavender, and other seasonal wildflowers.",
+        "imageUrl": "https://images.unsplash.com/photo-1529602220625-546401314227?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
+        "category": "Mixed"
+    },
+    {
+        "id": "p6",
+        "name": "Elegant White Orchid",
+        "price": 95.00,
+        "description": "A sophisticated and long-lasting potted Phalaenopsis orchid. This graceful plant adds a touch of modern elegance to any home or office.",
+        "imageUrl": "https://images.unsplash.com/photo-1610393399999-9738982a32c2?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
+        "category": "Plants"
+    }
+]
