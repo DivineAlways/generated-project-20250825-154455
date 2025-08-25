@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wireframe: Cart</title>
+    <style>
+        body { font-family: Arial, sans-serif; color: #333; margin: 0; padding: 0; background-color: #fff; }
+        .wireframe-container { display: flex; max-width: 1200px; margin: 20px auto; border: 1px solid #ccc; }
+        .main-content { flex: 3; padding: 20px; border-right: 1px solid #ccc; }
+        .notes { flex: 1; padding: 20px; background-color: #f5f5f5; font-size: 14px; }
+        .header { padding: 15px; background-color: #eee; border-bottom: 1px solid #ccc; display: flex; justify-content: space-between; align-items: center;}
+        .placeholder { background-color: #e0e0e0; border: 1px dashed #999; text-align: center; padding: 20px; color: #666; }
+        .cart-item { display: flex; align-items: center; gap: 15px; border-bottom: 1px solid #eee; padding: 15px 0; }
+        .cart-item-img { width: 80px; height: 80px; }
+        .cart-item-details { flex-grow: 1; }
+        .cart-summary { border: 1px solid #ccc; padding: 15px; margin-top: 20px; background: #fafafa; }
+        button { padding: 10px 15px; width: 100%; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="wireframe-container">
+        <div class="main-content">
+            <div class="header">
+                <span>[Logo: BloomNow]</span>
+                <span>[Navigation Links]</span>
+                <span>[Cart Icon (2)]</span>
+            </div>
+
+            <h1 style="margin-top:20px;">Your Cart</h1>
+
+            <div class="cart-item">
+                <div class="placeholder cart-item-img">[Img]</div>
+                <div class="cart-item-details">
+                    <p><strong>[Product Name 1]</strong></p>
+                    <p>[Price]</p>
+                </div>
+                <div>[Qty: <input type="number" value="1" style="width: 40px;">]</div>
+                <a href="#">[Remove]</a>
+            </div>
+
+            <div class="cart-item">
+                <div class="placeholder cart-item-img">[Img]</div>
+                <div class="cart-item-details">
+                    <p><strong>[Product Name 2]</strong></p>
+                    <p>[Price]</p>
+                </div>
+                <div>[Qty: <input type="number" value="1" style="width: 40px;">]</div>
+                <a href="#">[Remove]</a>
+            </div>
+
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div style="display:flex; justify-content: space-between;">
+                    <p>Subtotal:</p>
+                    <p>[Subtotal Price]</p>
+                </div>
+                <div style="display:flex; justify-content: space-between;">
+                    <p>Delivery:</p>
+                    <p>[Delivery Fee]</p>
+                </div>
+                <hr>
+                <div style="display:flex; justify-content: space-between; font-weight: bold;">
+                    <p>Total:</p>
+                    <p>[Total Price]</p>
+                </div>
+                <button style="background: #ddd; border: 1px solid #999;">[Proceed to Checkout]</button>
+            </div>
+
+        </div>
+        <div class="notes">
+            <h3>Notes: Cart View</h3>
+            <p><strong>Purpose:</strong> Allow users to review their selected items, make changes, and proceed to checkout.</p>
+            <ul>
+                <li>This could be a full page or a modal/sidebar overlay.</li>
+                <li><strong>Cart Items:</strong> Each item should clearly show image, name, price, quantity, and a remove option.</li>
+                <li><strong>Quantity Control:</strong> Users must be able to easily change item quantities.</li>
+                <li><strong>Order Summary:</strong> A clear breakdown of costs is essential.</li>
+                <li><strong>CTA:</strong> A prominent button to move to the next step in the checkout process.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
