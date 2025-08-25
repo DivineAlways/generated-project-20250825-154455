@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomNow - Flower Delivery</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">BloomNow</a>
+            <nav>
+                <button id="cart-button" class="cart-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                    <span id="cart-count">0</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="app-root" class="container">
+        <!-- JS will render content here -->
+        <div class="loader">Loading...</div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 BloomNow. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+            <div class="cart-modal-header">
+                <h2>Your Cart</h2>
+                <button id="close-cart-button" class="close-button">&times;</button>
+            </div>
+            <div id="cart-items-container" class="cart-modal-body">
+                <!-- Cart items will be rendered here -->
+            </div>
+            <div id="cart-modal-footer" class="cart-modal-footer">
+                <!-- Cart summary and checkout button will be rendered here -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
