@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wireframe: Product Detail</title>
+    <style>
+        body { font-family: Arial, sans-serif; color: #333; margin: 0; padding: 0; background-color: #fff; }
+        .wireframe-container { display: flex; max-width: 1200px; margin: 20px auto; border: 1px solid #ccc; }
+        .main-content { flex: 3; padding: 20px; border-right: 1px solid #ccc; }
+        .notes { flex: 1; padding: 20px; background-color: #f5f5f5; font-size: 14px; }
+        .header { padding: 15px; background-color: #eee; border-bottom: 1px solid #ccc; display: flex; justify-content: space-between; align-items: center;}
+        .placeholder { background-color: #e0e0e0; border: 1px dashed #999; text-align: center; padding: 20px; color: #666; }
+        .content-layout { display: flex; gap: 30px; margin-top: 20px; }
+        .image-pane { flex: 1; }
+        .details-pane { flex: 1; }
+        .back-link { margin-bottom: 20px; }
+        button { padding: 10px 15px; width: 100%; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="wireframe-container">
+        <div class="main-content">
+            <div class="header">
+                <span>[Logo: BloomNow]</span>
+                <span>[Navigation Links]</span>
+                <span>[Cart Icon (0)]</span>
+            </div>
+
+            <div class="back-link" style="margin-top:20px;">
+                &lt; <a href="#">Back to All Flowers</a>
+            </div>
+
+            <div class="content-layout">
+                <div class="image-pane">
+                    <div class="placeholder" style="height: 400px;">
+                        [Large Product Image]
+                    </div>
+                </div>
+                <div class="details-pane">
+                    <h2>[Product Name]</h2>
+                    <h3 style="color: #555;">[Price]</h3>
+                    <p>[Product description text goes here. It should be a few sentences long, detailing the type of flowers, the occasion it's suitable for, and any other relevant information.]</p>
+                    <button style="background: #ddd; border: 1px solid #999;">[Add to Cart]</button>
+                </div>
+            </div>
+        </div>
+        <div class="notes">
+            <h3>Notes: Product Detail</h3>
+            <p><strong>Purpose:</strong> Provide detailed information about a single product and allow the user to add it to their cart.</p>
+            <ul>
+                <li><strong>Back Link:</strong> Easy navigation back to the product grid.</li>
+                <li><strong>Image Pane:</strong> A large, high-quality image is crucial for selling flowers.</li>
+                <li><strong>Details Pane:</strong> Clear information hierarchy with Name, Price, and Description.</li>
+                <li><strong>CTA:</strong> A prominent "Add to Cart" button is the primary action on this page.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
